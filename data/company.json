@@ -1,0 +1,34 @@
+[
+	{
+		"name" : "Thorin Oakenshield",
+		"description" : "Thorin II 'Oakenshield', eventually called King under the Mountain or Mountain King, was the son of Thráin II, the older brother of Frerin and Dís, the grandson of King Thrór and the uncle of Fíli and Kíli. Thorin was best known for his deeds as leader of a company that infiltrated the lost Kingdom under the Mountain to take it back from Smaug and for leading an alliance of Men, Dwarves, and Elves in the Battle of Five Armies.",
+		"image_src" : "https://static.wikia.nocookie.net/lotr/images/e/ec/1400193_695248260488487_320403599_o.jpg",
+		"alt_text" : "Thorin Oakenshield",
+		"url" : "thorin"
+	},
+	{
+		"name" : "Fili and Kili",
+		"description" : "Fíli and Kíli were nephews of Thorin, who was the elder brother of their mother, Dís. They were also nephews of Frerin, grandsons of Thráin II, and great-grandsons of Thrór. Fíli's most distinguishing feature was his long nose, the longest of any of the Dwarves in Thorin's company.",
+		"image_src" : "https://static.wikia.nocookie.net/lotr/images/a/a6/HBT-DWF-003.jpg",
+		"alt_text" : "Picture of Fili and Kili",
+		"url" : "fili-and-kilo"
+	},
+	{
+		"name" : "",
+		"description" : "",
+		"image_src" : "",
+		"alt_text" : ""
+	},
+	{
+		"name" : "",
+		"description" : "",
+		"image_src" : "",
+		"alt_text" : ""
+	},
+	{
+		"name" : "",
+		"description" : "",
+		"image_src" : "",
+		"alt_text" : ""
+	}
+]
