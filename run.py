@@ -15,13 +15,15 @@ def index():
 @app.route("/about/<member_name>")
 def about_member(member_name):
    member = {}
-   with open("data/company.json", "r") as json_data:
-     data = json.load(json_data)
-     for obj in data:
-        if obj["url"] == member_name:
-           member = obj
 
-   return "<h1>" + member["name"] + "</h1>"
+   with open("data/company.json", "r") as json_data:
+      data = json.load(json_data)
+
+      for obj in data:
+         if obj["url"] == member_name:
+            member = obj
+
+      return "<h1>" + member["name"] + "</h1>"
 
 @app.route("/about")
 def about():
@@ -30,9 +32,9 @@ def about():
 
    # We open the company.json file as "r" (read only) with the name json_data
    with open("data/company.json", "r") as json_data:
-     
-     # using json module we load the json_data variable in the data array
-     data = json.load(json_data)
+      # using json module we load the json_data variable in the data array
+      data = json.load(json_data)
+   
    # We can pass data after the about tag using comas
    return render_template("about.html", page_title="About", company=data)
 
