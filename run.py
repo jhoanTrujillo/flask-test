@@ -23,7 +23,7 @@ def about_member(member_name):
          if obj["url"] == member_name:
             member = obj
 
-      return "<h1>" + member["name"] + "</h1>"
+      return render_template("members.html", member=member)
 
 @app.route("/about")
 def about():
