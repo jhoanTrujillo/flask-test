@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, render_template
+from flask import Flask, render_template, request, flash
 
 app = Flask(__name__)
 
@@ -42,6 +42,12 @@ def about():
 @app.route("/careers")
 def careers():
    return render_template("careers.html", page_title="Careers")
+
+@app.route("/contact", methods=["POST","GET"])
+def contact():
+   if request.method == "POST":
+      print(request.form)
+   return render_template("contact.html", page_title="Contact")
 
 
 if __name__ == "__main__":
